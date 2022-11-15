@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h2 {margin: 0;}
+
+#main {
+  height: calc(100vh - 6.7vh);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #222;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  flex-direction: column;
+}
+.generateBlcok{height: calc(20vh - 6.7vh);}
+
+.colorBlock {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.colorBlock button {
+  background: transparent;
+  border: none;
+  font-size: 1.3em;
+}
+
+.generateButton {
+  width: 90vw;
+  height: 5vh;
+  border-radius: 3px;
+  border: none;
+  font-size: 1.1em;
+}
