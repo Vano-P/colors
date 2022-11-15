@@ -34,10 +34,12 @@ h2 {margin: 0;}
   padding: 10px 0;
 }
 
+.colorBlock h2 {font-size: 1.5em;}
+
 .colorBlock button {
   background: transparent;
   border: none;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .generateButton {
@@ -45,5 +47,5 @@ h2 {margin: 0;}
   height: 5vh;
   border-radius: 3px;
   border: none;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
